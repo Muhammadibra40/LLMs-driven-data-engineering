@@ -1,5 +1,3 @@
-
-```markdown
 # Data Warehouse Design and Documentation Generation
 
 This project is designed to automate the process of transforming normalized operational database schemas into denormalized Data Warehouse (DWH) schemas and generating comprehensive documentation for the DWH. The project leverages OpenAI's GPT-4 model to assist in the design and documentation process.
@@ -22,8 +20,8 @@ Before running the project, ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Muhammadibra40/LLMs-driven-data-engineering.git
+   cd LLMs-driven-data-engineering
    ```
 
 2. **Install dependencies**:
@@ -84,19 +82,3 @@ The `DWH_design.py` script will generate DDL scripts (e.g., `table_1.sql`, `tabl
 
 ### Output (Documentation)
 The `documentation_generation.py` script will generate a `documentation.md` file in the `Docs` directory, containing detailed documentation for the DWH.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-### Notes:
-- Replace `your-username` and `your-repo-name` with your actual GitHub username and repository name.
-- Ensure you have a `requirements.txt` file listing the required Python packages (e.g., `openai`, `python-dotenv`).
-- Add a `LICENSE` file if you want to include a license for your project.
-
-This `README.md` provides a clear and concise guide for users to understand, set up, and use your project.
